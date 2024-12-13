@@ -16,7 +16,8 @@ if(isset($_POST['submit'])){
         echo '<h1>ficher passe</h1>';
     }else{
         echo '<h1>ficher deja kayn</h1>';
-        unlink(''   .'');
+
+        unlink(''.'dfd.jpg');
     }
 }
 ?>
