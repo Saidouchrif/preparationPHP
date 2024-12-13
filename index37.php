@@ -15,6 +15,7 @@ echo "<br>";
 $data2='{"name":"said","age" : "19","city" : "casa"}';
 $dataarray=json_decode($data2,true);
 var_dump($dataarray);
+
 echo "<br/>";
 echo $dataarray['name'];
 echo '<br>';
